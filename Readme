@@ -1,0 +1,53 @@
+# Project 3 Drone Swarm
+
+This project demonstrates the use of a drone swarm to spell out the message "Would You Marry Me?" using Microsoft AirSim and Python. The project leverages swarm intelligence principles to coordinate multiple drones for this task.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Code Explanation](#code-explanation)
+
+## Introduction
+
+This project uses Microsoft AirSim to simulate a swarm of drones that take off, form letters to spell "Would You Marry Me?", and then land. The script utilizes the AirSim Python API for drone control and the NumPy library for numerical operations.
+
+## Features
+
+- Connect to the AirSim simulator
+- Control multiple drones simultaneously
+- Form letters using predefined drone positions
+- Implement basic swarm intelligence principles
+- Sequentially display each letter in the message
+
+## Installation
+
+### Prerequisites
+
+- Python 3.6 or higher
+- Microsoft AirSim
+- Unreal Engine
+
+### Libraries
+
+Install the required Python libraries using pip:
+
+```bash
+pip install airsim numpy DroneKit​ OpenCV​ Scikitlearn​ Tensorflow​
+
+  Usage
+Set up the simulation environment:
+
+Download and install Unreal Engine from the Unreal Engine website.
+Clone the AirSim repository and set it up:
+bash
+Copy code
+git clone https://github.com/microsoft/AirSim.git
+cd AirSim
+./setup.sh
+./build.sh
+Open an AirSim project (e.g., AirSim/Unreal/Environments/Blocks) in Unreal Engine and click Play to start the simulation.
+Run the Python script: Project3
+
